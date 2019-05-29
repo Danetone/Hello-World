@@ -17,7 +17,7 @@ code?is "(The code for making a cube. The actual code though, not that statement
     (As well as other modifiers like background-color/image/gradient for each face, any borders, etc)
     }
     
-A global cabwa file can be created (although the extention would be .dss) as an external file, so that those pre-defined shorthand codes can be used through the entire site ( lie a stylesheet or script file.) Otherwise, the cabwa defs can be written in the &lt; style &gt; tag within the &lt; head &gt; tag of the document, and be used only for that particular document.   
+A global cabwa file can be created (although the extention would be .dss) as an external file, so that those pre-defined shorthand codes can be used through the entire site ( like a stylesheet or script file.) Otherwise, the cabwa defs can be written in the &lt; style &gt; tag within the &lt; head &gt; tag of the document, and be used only for that particular document.   
 
 Example of allowing multiple events:
 
