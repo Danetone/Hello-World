@@ -32,7 +32,7 @@ event?is on-click?for e-id?is 'link', action?is {
  The "then" statement determines the order in which actions are done, so they aren't done at the same time or in the wrong order. 
  (Also, "e-id" stands for "element id", as opposed to "s-id" for "style id". The program would work with just "id", but the e or s helps it to know ahead of time what it's looking for so it can run more quickly.)
  
- One other feature will be mentioned here, although this will not by any means be the entirety of the description of DSS. The "make" statement, which is an action keyword. It alters the default property value of a gien element. 
+ One other feature will be mentioned here, although this will not by any means be the entirety of the description of DSS. The "make" statement, which is an action keyword. It alters the default property value of a given element. 
   Example:
    event? on-hover? e-id?is 'main-content', action?is make overflow? visible;
    (whereas, the default property value of "overflow" [by styling] had been "hidden".)
